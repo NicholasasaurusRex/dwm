@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 4;        /* border pixel of windows */
+static const unsigned int borderpx  = 6;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int gappih    = 0;       /* horiz inner gap between windows */
 static const unsigned int gappiv    = 0;       /* vert inner gap between windows */
@@ -15,7 +15,7 @@ static char dmenufont[]       = "monospace:size=10";
 static char normbgcolor[]           = "#000000";        /**/
 static char normbordercolor[]       = "#D7AFD7";	      /*#87AFD7*/
 static char normfgcolor[]           = "#C5C5C5";        /**/
-static char selfgcolor[]            = "#eeeeee";        /**/
+static char selfgcolor[]            = "#eeeeee";       /**/
 static char selbordercolor[]        = "#AFD787";        /**/
 static char selbgcolor[]            = "#87AFD7";	      /**/
 static char *colors[][3] = {

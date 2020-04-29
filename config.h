@@ -1,6 +1,15 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
+
+/* Color Scheme */
+/* *.color0: #000000 */
+/* *.color2: #d78787 */
+/* *.color3: #ffb76d */
+/* *.color4: #87afd7 */
+/* *.color5: #d7afd7 */
+/* *.color6: #afd787 */
+
 static const unsigned int borderpx  = 6;         /* border pixel of windows */
 static const unsigned int snap      = 32;        /* snap pixel */
 static const unsigned int gappih    = 0;         /* horiz inner gap between windows */
@@ -10,12 +19,14 @@ static const unsigned int gappov    = 0;         /* vert outer gap between windo
 static const int smartgaps          = 1;         /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;         /* 0 means no bar */
 static const int topbar             = 1;         /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10", "JoyPixels:pixelsize=10:antialias=true:autohint=true"  };
-static char dmenufont[]             = "monospace:size=10";
-static char normbgcolor[]           = "#000000";          /**/
+/* static const char *fonts[]          = { "monospace:size=10", "JoyPixels:pixelsize=10:antialias=true:autohint=true"  }; */
+static const char *fonts[]          = { "Source Code Pro:size=10", "Source Code Pro:pixelsize=10:antialias=true:autohint=true"  };
+/* static char dmenufont[]             = "monospace:size=10"; */
+static char dmenufont[]             = "Source Code Pro:size=10";
+static char normbgcolor[]           = "#000000";          /*#000000*/
 static char normbordercolor[]       = "#D7AFD7";          /*#87AFD7*/
-static char normfgcolor[]           = "#C5C5C5";          /**/
-static char selfgcolor[]            = "#eeeeee";          /**/
+static char normfgcolor[]           = "#ffffff";          /*#c5c5c5*/
+static char selfgcolor[]            = "#000000";          /*#eeeeee*/
 static char selbordercolor[]        = "#AFD787";          /**/
 static char selbgcolor[]            = "#87AFD7";          /**/
 static char *colors[][3] = {

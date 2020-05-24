@@ -210,7 +210,7 @@ static Key keys[] = {
 	/* { MODKEY,			XK_F5,		xrdb,		{.v = NULL } }, */
 	/* { MODKEY,			XK_F6,		spawn,		SHCMD("torwrap") }, */
 	{ MODKEY,			XK_F7,		spawn,		SHCMD("td-toggle") },
-	{ MODKEY,			XK_F8,		spawn,		SHCMD("mailsync") },
+	/* { MODKEY,			XK_F8,		spawn,		SHCMD("mailsync") }, */
 	{ MODKEY,			XK_F9,		spawn,		SHCMD("dmenumount") },
 	{ MODKEY,			XK_F10,		spawn,		SHCMD("dmenuumount") },
 	/* { MODKEY,			XK_F11,		spawn,		SHCMD("") }, */
@@ -244,6 +244,7 @@ static Key keys[] = {
 	{ 0, XF86XK_ScreenSaver,	spawn,		SHCMD("slock & xset dpms force off; mpc pause; pauseallmpv") },
 	{ 0, XF86XK_TaskPane,		spawn,		SHCMD("st -e htop") },
 	{ 0, XF86XK_Mail,		spawn,		SHCMD("st -e neomutt ; pkill -RTMIN+12 dwmblocks") },
+	{ MODKEY|ShiftMask,			XK_m,		spawn,		SHCMD("mailsync") },
 	{ 0, XF86XK_MyComputer,		spawn,		SHCMD("st -e lf /") },
 	/* { 0, XF86XK_Battery,		spawn,		SHCMD("") }, */
 	{ 0, XF86XK_Launch1,		spawn,		SHCMD("xset dpms force off") },

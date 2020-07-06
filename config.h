@@ -25,7 +25,7 @@ static const char *fonts[]          = { "Source Code Pro:size=10", "JoyPixels:pi
 /* static char dmenufont[]             = "monospace:size=10"; */
 static char dmenufont[]             = "Source Code Pro:size=10";
 static char normbgcolor[]           = "#000000";          /*#000000*/
-static char normbordercolor[]       = "#D7AFD7";          /*#87AFD7*/
+static char normbordercolor[]       = "#3A3A3A";          /*#d7afd7*/
 static char normfgcolor[]           = "#ffffff";          /*#c5c5c5*/
 static char selfgcolor[]            = "#000000";          /*#eeeeee*/
 static char selbordercolor[]        = "#AFD787";          /**/

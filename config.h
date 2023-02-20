@@ -20,7 +20,7 @@ static const int swallowfloating    = 0;        /* 1 means swallow floating wind
 static const int smartgaps          = 1;         /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;         /* 0 means no bar */
 static const int topbar             = 1;         /* 0 means bottom bar */
-static const char *fonts[]          = { "Source Code Pro:size=10", "JoyPixels:pixelsize=12:antialias=true:autohint=true", \
+static const char *fonts[]          = { "Source Code Pro:size=16", "JoyPixels:pixelsize=12:antialias=true:autohint=true", \
   "Source Code Pro:pixelsize=10:antialias=true:autohint=true" };
 /* static char dmenufont[]             = "monospace:size=10"; */
 static char dmenufont[]             = "Source Code Pro:size=10";
@@ -220,7 +220,7 @@ static Key keys[] = {
 	{ MODKEY,			XK_Insert,	spawn,		SHCMD("notify-send \"📋 Clipboard contents:\" \"$(xclip -o -selection clipboard)\"") },
 	{ MODKEY,			XK_z,		spawn,		SHCMD("mailsync") },
 
-	{ MODKEY,			XK_F1,		spawn,		SHCMD("groff -mom /usr/local/share/dwm/cabs.mom -Tpdf | zathura -") },
+	{ MODKEY,			XK_F1,		spawn,		SHCMD("groff -mom /usr/local/share/dwm/larbs.mom -Tpdf | zathura -") },
 	{ MODKEY,			XK_F2,		spawn,		SHCMD("tutorialvids") },
 	{ MODKEY,			XK_F3,		spawn,		SHCMD("displayselect") },
 	{ MODKEY,			XK_F4,		spawn,		SHCMD("st -e pulsemixer; kill -44 $(pidof dwmblocks)") },

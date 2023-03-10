@@ -23,7 +23,7 @@ static const int topbar             = 1;         /* 0 means bottom bar */
 static const char *fonts[]          = { "Source Code Pro:size=14", "JoyPixels:pixelsize=14:antialias=true:autohint=true", \
   "Source Code Pro:pixelsize=14:antialias=true:autohint=true" };
 /* static char dmenufont[]             = "monospace:size=10"; */
-static char dmenufont[]             = "Source Code Pro:size=10";
+static char dmenufont[]             = "Source Code Pro:size=16";
 static char normbgcolor[]           = "#000000";          /*#000000*/
 static char normbordercolor[]       = "#3A3A3A";          /*#d7afd7*/
 static char normfgcolor[]           = "#ffffff";          /*#c5c5c5*/
